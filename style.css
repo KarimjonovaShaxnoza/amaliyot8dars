@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    height: 875px;
+    padding-top: 22px;
+
+}
+
+.header {
+    background: url("./images/1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+}
+
+ul li a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.06px;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white;
+}
+
+span {
+    color: #F57520;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+
+h2 {
+    font-family: Open Sans;
+    font-size: 92px;
+    width: 200px;
+    font-weight: 700;
+    line-height: 118.08px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: white;
+}
+
+.left p {
+    margin-top: 48px;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28.8px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    width: 500px;
+    color: white;
+}
+
+
+button {
+    width: Fixed (180px)px;
+    height: Hug (52px)px;
+    padding: 16px 50px;
+    gap: 10px;
+    border-radius: 5px;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.68px;
+    margin-top: 56px;
+    background-color: #F57520;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.category {
+    width: 1280px;
+}
+
+.category-title {
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    letter-spacing: 0.05em;
+    margin-bottom: 122px;
+}
+
+.row_1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F57520;
+    border-radius: 15px;
+}
+
+.row_1 h2 {
+    color: white;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    border-radius: 15px;
+}
+
+.row_2 {
+    margin-top: 16px;
+    display: flex;
+    gap: 12px;
+}
+
+.velik-left {
+    width: 400px;
+    height: 458px;
+    background-color: black;
+    border-radius: 15px;
+    position: relative;
+}
+
+.velik-left h2 {
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    padding-top: 80px;
+    color: white;
+}
+
+.velik-left .velik-img img {
+    position: absolute;
+    bottom: 0;
+    border-radius: 15px;
+    width: 380px
+}
+
+
+
+main {
+    background-color: rgb(132, 131, 131);
+    padding-bottom: 120px;
+    padding-top: 100px;
+}
+
+.velik-card {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 400px;
+    height: 216px;
+    background-color: black;
+    border-radius: 15px;
+    position: relative;
+}
+
+.velik-card-img img {
+    position: absolute;
+    right: 0;
+
+}
+
+.velik-card h2 {
+    color: white;
+    font-family: Open Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 49.2px;
+    letter-spacing: 0.05em;
+    padding-top: 29px;
+}
+
+.velik-right {
+    width: 869px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.velikBig {
+    width: 448px;
+}
+
+.sec-title {
+    margin-top: 157px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 78.72px;
+    letter-spacing: 0.05em;
+    margin-bottom: 122px;
+}
+
+.row-3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.track {
+    max-width: 1280px;
+}
+
+.velikk-left {
+    width: 400px;
+    height: 462px;
+    background-color: black;
+    border-radius: 15px;
+    position: relative;
+}
+
+.vellik-middle {
+    width: 400px;
+    height: 462px;
+    background-color: black;
+    border-radius: 15px;
+    position: relative;
+}
+
+.vellik-right {
+    width: 400px;
+    height: 462px;
+    background-color: black;
+    border-radius: 15px;
+    position: relative;
+}
+
+.vellik-wilier {
+    width: 400px;
+    height: 462px;
+    background-color: black;
+    border-radius: 15px;
+    position: relative;
+}
+
+.vellik-mtb {
+    width: 400px;
+    height: 462px;
+    background-color: black;
+    border-radius: 15px;
+    position: relative;
+}
+
+.vellik-rights {
+    width: 400px;
+    height: 462px;
+    background-color: black;
+    border-radius: 15px;
+    position: relative;
+}
+
+
+.veliklar:hover {
+    background-color: #F57520;
+}
+
+h3 {
+    margin-left: 24px;
+    padding-top: 24px;
+    color: white;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 25.6px;
+    text-align: left;
+}
+
+p {
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    text-align: left;
+    color: white;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.contact {
+    height: 636px;
+    background: url("./images/image\ 86.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #F57520;
+}
+
+.contact h2 {
+    font-size: 40px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 92px;
+}
+
+form {
+    max-width: 608px;
+    width: 100%;
+
+}
+
+.inputs {
+    display: grid;
+    grid-template-columns: 302px 302px;
+    gap: 16px;
+}
+
+input {
+    padding: 12px;
+    border-radius: 15px;
+}
+
+textarea {
+    width: 608px;
+    height: 154px;
+}
+
+.btn {
+    margin-top: 24px;
+    background-color: white;
+    width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F3D7B7;
+    width: 100%;
+    height: 160px;
+    align-items: center;
+    height: 320px;
+    background-color: black;
+}
+
+ul li a {
+    color: white;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38.4px;
+    letter-spacing: 0.01em;
+}
+
